@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex justify-content-center align-items-center text-center vh-100">
+        <div class="container">
+            <div class="circle-profile mb-3">
+                <img src="./IMG_4439.jpg" alt="Your Photo"> <!-- Replace with your photo -->
+            </div>
+            <h1>Hello, I'm Arnab Mohanta</h1>
+            <p class="lead">Web Developer & AI/ML Enthusiast</p>
+            <div class="btn-group mb-3">
+                <a href="./My Resume.pdf" class="btn btn-primary" download>Download CV</a>
+                <a href="mailto:arnabmohanta2735@gmail.com" class="btn btn-outline-light ms-3">Contact Me</a>
+            </div>
+            <div class="mt-3">
+                <a href="https://github.com/O-Boythe-Chief" class="me-3" target="_blank">
+                    <i class="bi bi-github" style="font-size: 32px;"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/arnab-mohanta-76850828b/" target="_blank">
+                    <i class="bi bi-linkedin" style="font-size: 32px;"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="container py-5 text-center">
+        <h2 class="mb-4 underline">About Me</h2>
+        <div class="about-box p-4">
+            <p>I am a second-year B.Tech student with a strong passion for web development and artificial intelligence/machine learning. Over the past 24 months, I have built a solid foundation in programming, becoming proficient in languages such as Java, C, and C++. My skills in HTML, CSS, and JavaScript empower me to create dynamic, user-friendly, and responsive websites, further enhancing my capabilities in web development. I am eager to explore how AI/ML can be integrated into web solutions to create innovative applications.</p>
+        </div>
+
+        <div class="row info-container">
+            <!-- Education & Experience Box -->
+            <div class="col-md-6 mb-4">
+                <div class="info-box">
+                    <h4 class="underline">Education & Experience</h4>
+                    <ul class="list-unstyled">
+                        <li><strong>B.Tech. in Computer Science</strong> - University of Engineering & Management</li>
+                        <li><strong>Beginner</strong> - Front-End Developer</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- My Skills Box -->
+            <div class="col-md-6 mb-4">
+                <div class="info-box">
+                    <h4 class="underline">My Skills</h4>
+                    <ul class="list-unstyled">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>DSA in C, C++, Java</li>
+                        <li>Python for AI/ML</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container py-5 text-center">
+        <h2 class="mb-4 underline">Projects</h2>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 mb-4">
+                <div class="card bg-secondary">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">To-Do List</p>
+                        <a href="https://github.com/O-Boythe-Chief/To-Do-List.git" class="btn btn-primary">GitHub</a>
+                        <a href="https://o-boythe-chief.github.io/To-Do-List/" class="btn btn-outline-light">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="card bg-secondary">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">Real-Time Chat UI</p>
+                        <a href="https://github.com/O-Boythe-Chief/Real-Time-Chat-UI" class="btn btn-primary">GitHub</a>
+                        <a href="https://o-boythe-chief.github.io/Real-Time-Chat-UI/" class="btn btn-outline-light">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container py-5 text-center">
+        <h2 class="mb-4 underline">Contact</h2>
+        <p>If you would like to get in touch, please reach out!</p>
+        <a href="mailto:arnabmohanta2735@gmail.com" class="btn btn-primary">Contact Me</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Arnab Mohanta. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
